@@ -3,15 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>estilos con css</title>
 
 </head>
 <body>
-    <h1>hola mundo</h1>
+ 
+    <h1>selecto a nivel de etiqueta</h1>
+    <h1 class="texto texto-grande"> selecto a nivel de clase</h1>
+    <h1 id="texto-pequeño">selecto a nivel de identificacion</h1> 
+
+    <header>
+        <nav>
+            <a href="www.facebook.com/">facebook</a>
+        </nav>
+    </header>
+    <aside>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">instagram</a>
+                </li>
+                <li>
+                    <a href="">twitter</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    </style>
+    <a href="www.google.com">google</a>
+    <h2>titulo secundario</h2>
+    <p class="texto centrado"></p>
     <style>
-    h1 {
+        header > nav > a {
+            font-size: 50px;
+        }
+        h2 .text-centrado{
+            text-align: center;
+
+        }
+    /*h1 {
+        
+        color: rgba(0, 0, 255, 0.445);
+    outline: 1px solid rgb(0, 255, 42);
+    width: 100px;
+    height: 100px;
+    border:5px solid orange;
+    padding: 50px;
+    margin: 50px;
+    
+        }*/
+        h1 
+        {color: purple; }
+       .texto-grande{font-size: 60px;
         color: blue;
     }
+    #texto-pequeño {
+        font-size: 10px;
+        color: yellow ;
+    }
+
     </style>
 </body>
 </html>
